@@ -15,6 +15,10 @@ html {
   font-size: 1000%;
 }
 
+#parte_principal{
+  background-image: url("img/abuelo_mano.jpg");
+}
+
 body {
   margin: 0;
 }
