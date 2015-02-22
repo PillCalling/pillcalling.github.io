@@ -813,7 +813,9 @@ section#features .media.active .media-heading {
   color: #66cc99;
 }
 section#reviews {
-  background: url("../img/eco/bk-eco.jpg");
+  /*background: url("../img/eco/bk-eco.jpg");*/
+  background: url("../img/eco/cabecera_twitter.png");
+  background-repeat: no-repeat;
 }
 section#reviews header {
   color: #ffffff;
