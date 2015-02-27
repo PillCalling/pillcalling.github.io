@@ -54,9 +54,9 @@
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#features">Características</a>
                             </li>
-                            <li><a href="#reviews">Opiniones</a>
-                            </li>
                             <li><a href="#screens">Funcionamiento</a>
+                            </li>
+                            <li><a href="#reviews">Opiniones</a>
                             </li>
                             <li><a class="getApp" href="#getApp">Descargar App</a>
                             </li>
@@ -75,7 +75,7 @@
         <div id="parte_principal" class="tp-banner-container">
             <div class="tp-banner" >
                 <ul>
-                    <!-- SLIDE  -->
+                    <!-- PRIMER SLIDE PRINCIPAL -->
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
                         <!-- MAIN IMAGE -->
                         
@@ -93,7 +93,49 @@
                         <div class="tp-caption sfr hidden-xs" data-x="750" data-y="center" data-hoffset="0" data-voffset="85" data-speed="1500" data-start="1900" data-easing="Power4.easeOut">
                             <a href="#getApp" class="btn btn-default btn-lg">Descargar App</a>
                         </div>                   
-                    
+                    </li>
+
+                    <!-- SEGUNDO SLIDE PRINCIPAL -->
+                    <li data-transition="zoomout" data-slotamount="7" data-masterspeed="1000" >
+                        <!-- MAIN IMAGE -->
+                        
+                        <!-- LAYERS -->
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption customin customout hidden-xs"
+                            data-x="right"
+                            data-y="center"
+                            data-hoffset="0"
+                            data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-voffset="50"
+                            data-speed="1000"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src="img/eco/devices.png" alt="">
+                        </div>
+
+                        <div class="tp-caption customin customout visible-xs"
+                            data-x="center"
+                            data-y="center"
+                            data-hoffset="0"
+                            data-customin="x:50;y:150;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.5;scaleY:0.5;skewX:0;skewY:0;opacity:0;transformPerspective:0;transformOrigin:50% 50%;"
+                        data-customout="x:0;y:0;z:0;rotationX:0;rotationY:0;rotationZ:0;scaleX:0.75;scaleY:0.75;skewX:0;skewY:0;opacity:0;transformPerspective:600;transformOrigin:50% 50%;"
+                            data-voffset="0"
+                            data-speed="1000"
+                            data-start="700"
+                            data-easing="Power4.easeOut">
+                            <img src="img/eco/devices.png" alt="">
+                        </div>
+
+                        <div class="tp-caption lfb visible-xs" data-x="center" data-y="center" data-hoffset="0" data-voffset="400" data-speed="1000" data-start="1200" data-easing="Power4.easeOut">
+                            <a href="#" class="btn btn-primary inverse btn-lg">Purchase</a>
+                        </div>
+
+                        <div class="tp-caption small_light_white sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="80" data-speed="1000" data-start="1600" data-easing="Power4.easeOut">
+                           <p>Configure fácilmente desde cualquier dispositivo <br> la medicación que quiera recordar, además de llevar <br> un control sobre citas médicas, pruebas, etc</p>
+                        </div>
+                        
+                    </li>
                 </ul>
             </div>
         </div>
@@ -182,6 +224,43 @@
                         </div>
                        
                     </div>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="screens">
+            <div class="container">
+
+                <div class="section-heading scrollpoint sp-effect3">
+                    <h1>Funcionamiento</h1>
+                    <div class="divider"></div>
+                    <p>Así funciona...</p>
+                </div>
+             
+                </div>
+                <div class="slider filtering scrollpoint sp-effect5" >
+                    <div>
+                        <img src="img/eco/screens/primer_mockup.png" alt="">
+                        <h4>Recibe la medicina que tienes que tomar junto con un audio de un ser querido.</h4>
+                    </div>
+                    <div>
+                        <img src="img/eco/screens/segundo_mockup.png" alt="">
+                        <h4>Toma la medicación.</h4>
+                    </div>
+                    <div>
+                        <img src="img/eco/screens/tercer_mockup.png" alt="">
+                        <h4>Confirma que has tomado la medicación.</h4>
+                    </div>
+                    <div>
+                        <img src="img/eco/screens/cuarto_mockup.png" alt="">
+                        <h4>Recibe una nota de audio agradeciendo que quieres ponerte bien.</h4>
+                    </div>
+                </div>
+                <div class="section-heading scrollpoint sp-effect3">
+                    <video width="70%" height="600" controls>
+                        <source src="video/prueba.mp4" type="video/mp4">
+                    </video>
                 </div>
             </div>
         </section>
@@ -298,43 +377,13 @@
                     </div>
                 </div>
             </div>
+            <!-- WIDGET DE TWITTER -->
+
+            <center><a class="twitter-timeline" href="https://twitter.com/Pill_Calling" data-widget-id="571378789960409088">Tweets por el @Pill_Calling.</a></center>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
         </section>
 
-        <section id="screens">
-            <div class="container">
-
-                <div class="section-heading scrollpoint sp-effect3">
-                    <h1>Funcionamiento</h1>
-                    <div class="divider"></div>
-                    <p>Así funciona...</p>
-                </div>
-             
-                </div>
-                <div class="slider filtering scrollpoint sp-effect5" >
-                    <div>
-                        <img src="img/eco/screens/primer_mockup.png" alt="">
-                        <h4>Recibe la medicina que tienes que tomar junto con un audio de un ser querido.</h4>
-                    </div>
-                    <div>
-                        <img src="img/eco/screens/segundo_mockup.png" alt="">
-                        <h4>Toma la medicación.</h4>
-                    </div>
-                    <div>
-                        <img src="img/eco/screens/tercer_mockup.png" alt="">
-                        <h4>Confirma que has tomado la medicación.</h4>
-                    </div>
-                    <div>
-                        <img src="img/eco/screens/cuarto_mockup.png" alt="">
-                        <h4>Recibe una nota de audio agradeciendo que quieres ponerte bien.</h4>
-                    </div>
-                </div>
-                <div class="section-heading scrollpoint sp-effect3">
-                    <video width="70%" height="600" controls>
-                        <source src="video/prueba.mp4" type="video/mp4">
-                    </video>
-                </div>
-            </div>
-        </section>
 
         <section id="getApp">
             <div class="container-fluid">
